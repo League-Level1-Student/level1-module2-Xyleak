@@ -25,9 +25,8 @@ public class SeaCreature {
 
 	public void eat() {
 		System.out.println(name + " is eating krabby patties");
-	}
+	
 
-	public void laugh() {
 		try {
 		    AudioClip sound = JApplet.newAudioClip(getClass().getResource(this.name + ".wav"));
 		    sound.play();
