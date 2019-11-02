@@ -14,7 +14,10 @@ public class Pratical_Smurf {
 	System.out.println(Old.getHatColor());
 	System.out.println(Old.isGirlOrBoy());
 		
-		
+	Smurf te = new Smurf("Smurfette");
+	System.out.println(te.getName());
+	System.out.println(te.getHatColor());
+	System.out.println(te.isGirlOrBoy());
 		
 		
 		

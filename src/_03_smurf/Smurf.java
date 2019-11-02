@@ -44,10 +44,16 @@ public class Smurf {
 
 /* Smurfette is the only female Smurf. */
 public String isGirlOrBoy() {
-	// 4. Fill in this method
-	return "";
-}
+	if(name.equals("Smurfette")){
+		System.out.print("I'm a ");
+	return "Grill";}
+	
+	else {
+		System.out.print("I'm a ");
+		return "Boi";}
+	}
 
 }
+
 
 
