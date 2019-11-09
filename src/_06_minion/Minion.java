@@ -15,16 +15,39 @@ public class Minion {
 		this.master = master;
 	}
 
-void setName(String Jerry) {
-
-this.name = Jerry;	
-}	
-
-
-
-
-void setEyes(int Two) {
 	
-this.eyes = Two;	
-}
+	
+	void setName(String stuart) {
+		this.name = stuart;	
+		}	
+
+	
+		void setEyes(int Two) {
+		this.eyes = Two;	
+		}
+
+		
+		void setColor(String Gray) {
+		this.color = Gray;	
+		}
+
+
+		void setMaster(String Guru) {
+			
+		this.master = Guru;	
+		}
+
+
+		String getName() {
+			return name;
+		}
+			int getEyes() {
+				return eyes;
+			}
+				String getColor() {
+					return color;
+				}
+					String getMaster() {
+						return master;
+					}
 }
